@@ -1,0 +1,4 @@
+07.04.2020	Vorbesprechung im Discord (Kevin, Christian, Christoph)
+08.04.2020 	Download und Einrichtung von Tex-Live und Tex-Studio (mehr zeitaufwand als erwartet)
+		Titelblatt umschreiben
+		Erstellung von Projekt auf Github + Einladung Kevin und Mitschi
