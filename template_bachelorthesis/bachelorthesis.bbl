@@ -1,0 +1,43 @@
+\begin{thebibliography}{1}
+
+\bibitem{Aghajan_ICDSC2007}
+Hamid Aghajan and Richard Kleihorst, editors.
+\newblock {\em {Proceedings of the ACM/IEEE International Conference on
+  Distributed Smart Cameras (ICDSC 06)}}, Vienna, Austria, September 2007.
+
+\bibitem{Bramberger_RTAS2004}
+Michael Bramberger, Josef Brunner, Bernhard Rinner, and Helmut Schwabach.
+\newblock {Real-Time Video Analysis on an Embedded Smart Camera for Traffic
+  Surveillance}.
+\newblock In {\em Proceedings of the 10th IEEE Real-Time and Embedded
+  Technology and Applications Symposium (RTAS 2004)}, pages 174--181, Toronto,
+  Canada, May 2004.
+
+\bibitem{Bramberger_Computer2006}
+Michael Bramberger, Andreas Doblander, Arnold Maier, Bernhard Rinner, and
+  Helmut Schwabach.
+\newblock {Distributed Embedded Smart Cameras for Surveillance Applications}.
+\newblock {\em Computer}, 39(2):68--75, February 2006.
+
+\bibitem{Day2006}
+Robert Day and Barbara Gastel.
+\newblock {\em {How to Write \& Publish a Scientific Paper}}.
+\newblock B\&T, 2006.
+
+\bibitem{Kui86}
+Benjamin Kuipers.
+\newblock {Qualitative Simulation}.
+\newblock {\em Artificial Intelligence}, 29:289--338, 1986.
+
+\bibitem{Patterson2006}
+David~A. Patterson and John~L. Hennessy.
+\newblock {\em {Computer Architecture: A Quantitative Approach}}.
+\newblock Morgan Kaufmann, San Francisco CA, 2006.
+
+\bibitem{weinelt}
+J{\"u}rgen Weinelt.
+\newblock {Der LaTeX Index -- Eine Befehls{\"u}bersicht im World Wide Web}.
+\newblock \url{http://www.weinelt.de/latex}.
+\newblock [last visited, Feb. 12, 2008].
+
+\end{thebibliography}

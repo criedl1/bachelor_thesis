@@ -1,0 +1,55 @@
+\documentclass[11pt]{report}
+
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{hyperref}
+
+\graphicspath{{images/}}
+
+\setlength{\textwidth}{15 true cm}
+\setlength{\textheight}{22 true cm}
+\oddsidemargin  0.5 cm
+\evensidemargin 0.5 cm
+\topmargin      -1.0 cm
+
+\begin{document}
+
+\include{titlepage_project}
+
+\pagenumbering{roman}
+
+\include{abstract_g}
+
+\include{abstract_e}
+
+\include{acknow}
+
+\tableofcontents
+
+\listoffigures
+%The "list of figures" is optional
+
+\listoftables 
+%The "list of tables" is optional
+
+\pagestyle{headings}
+
+\chapter{Introduction}
+\label{sec:intro}
+\pagenumbering{arabic}
+\input{chapter1}
+
+\chapter{State of the Art}
+\label{sec:sota}
+\input{chapter2}
+
+\chapter{Implementation}
+\label{sec:imp}
+\input{chapter3}
+
+\newpage
+\bibliographystyle{plain}
+\addcontentsline{toc}{chapter}{Bibliography}  
+\bibliography{reference}
+
+\end{document}

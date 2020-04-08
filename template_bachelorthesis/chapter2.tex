@@ -1,0 +1,79 @@
+
+Chapter~\ref{sec:sota} gives a brief overview of the state of the art
+of this research.
+
+\section{A Sample Text}
+ 
+Over the years, human experts have gained sufficient experience to 
+solve a lot of problems
+efficiently. During the last years, much work has been done to build
+machines that imitate the description of human thinking and acting.
+Expert systems are computer programs which use knowledge and inference
+mechanisms to solve problems where normally expert knowledge is required.
+One important class of problems is {\em diagnostic reasoning}.
+Diagnostic reasoning can be seen as a classification problem, since it involves
+identifying current behavior with a set of known classes of behavior. It can 
+also be considered as an abduction problem, concerned with generating plausible
+explanations for observations \cite{Kui86}.
+
+Diagnostic reasoning systems are important in many technical systems.
+As these systems---like electronic circuits, assembly 
+lines or nuclear power plants---are becoming more complex, the need for 
+automatic reasoning systems to support troubleshooting is increasing 
+enormously.
+
+Most diagnostic expert systems can be classified into the following categories:
+
+\begin{description}
+\item[Statistical approach.]
+The statistical approach determines the probabilities of a diagnosis. This 
+approach is mainly based on the {\em Bayes Theorem\/}. Due to the lack of 
+causal inference, the statistical reasoning process has only a very limited 
+ability for explanation.
+
+\item[Associative approach.]
+Associative diagnosis systems are built by accumulating the experience of
+expert troubleshooters in the form of empirical associations. The associative
+approach became popular, in part, because it permitted easy construction of 
+expert systems by encoding heuristic information in the form of 
+{\em if--then\/} rules. However, a big problem is the knowledge accumulation
+of rule-based systems.
+
+\item[Model-based approach.]
+Model-based diagnosis can be viewed as an interaction between prediction and
+observation. The knowledge is represented by different models for the 
+{\em structure\/} and the {\em behavior\/} of the system. The predicted 
+behavior is compared with the actual observation, producing  
+discrepancies. Discrepancies then give rise to a possible diagnosis.
+A Model-based diagnosis covers a broader range of faults by viewing misbehavior
+as anything other than what the model predicts. This approach also better
+captures the causal dependencies of the system than the other two approaches.
+\end{description}
+
+The key units of a model-based diagnostic expert system are the {\em models\/} 
+which describe behavior and structure and the {\em inference 
+mechanism\/} for predicting the behavior given the structure of the system. 
+Reasoning with models can be broken down into two major subproblems 
+\cite{Kui86}.
+{\em Model building\/} starts with a description of the physical situation and 
+builds an appropriate simplified model. {\em Model simulation\/} starts with
+a model and predicts the possible behaviors consistent with the model.
+A system can be modeled at different levels of abstractions. These levels
+range from detailed numerical descriptions up to rather coarse and incomplete
+descriptions at a qualitative level. The selected abstraction level depends
+basically on the domain, the information available about the system and the
+inference mechanism which must correspond to the model description. 
+In many cases, the behavior is predicted by simulators. Therefore, 
+numerical, discrete or qualitative simulators are often applied. 
+Sometimes system descriptions at different levels are combined to achieve 
+diagnosis at an appropriate level of detail.
+
+\subsection{A few References}
+
+Model-based fault diagnosis is applied more and more nowadays. This reasoning
+technique is used in both static as well as dynamic systems. In dynamic 
+systems, the parameters of the system change over time. Hence, the behavior 
+also changes over time. Examples for model-based diagnosis in static systems
+are \cite{Bramberger_Computer2006, Bramberger_RTAS2004}. Model-based diagnosis in dynamic systems is 
+demonstrated in \cite{Patterson2006} \cite{Aghajan_ICDSC2007}.
+
